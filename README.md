@@ -27,3 +27,13 @@ Develop SQL-based analytics to deliver detailed insights into:
 - Sales trends
 
  These insights will provide the stakeholders with key metrics to make strategic choices.
+
+ -----
+
+ ##Licence
+
+ This project is licensed under the MIT license; feel free to use, modify, and share this project.
+
+ ##About me
+
+ I'm Armando Schleske. I'm an IT professional trying to learn everything about DWH, Data Lake, SQL, and Data Lake House. And you know what they say, there's no better learning than just doing it.
