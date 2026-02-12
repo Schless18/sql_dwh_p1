@@ -25,20 +25,20 @@ CREATE TABLE silver.crm_cust_info (
 );
 GO
 
-IF OBJECT_ID('silver.crm_prd_info', 'U') IS NOT NULL
-    DROP TABLE silver.crm_prd_info;
+IF object_id('silver.crm_prd_info', 'U') is not null
+	drop table silver.crm_prd_info;
 GO
 
 CREATE TABLE silver.crm_prd_info (
-    prd_id          INT,
-    cat_id          NVARCHAR(50),
-    prd_key         NVARCHAR(50),
-    prd_nm          NVARCHAR(50),
-    prd_cost        INT,
-    prd_line        NVARCHAR(50),
-    prd_start_dt    DATE,
-    prd_end_dt      DATE,
-    dwh_create_date DATETIME2 DEFAULT GETDATE()
+	prd_id int,
+	cat_id nvarchar(50),
+	prd_key nvarchar(50),
+	prd_nm nvarchar(50),
+	prd_cost int,
+	prd_line nvarchar(50),
+	prd_start_dt date,
+	prd_end_dt date,
+	dwh_create_date datetime2 default getdate()
 );
 GO
 
